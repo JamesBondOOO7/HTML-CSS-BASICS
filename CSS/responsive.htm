@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+        <!-- styling according to the different width of screen of differnet devices so as 
+        the webage looks nicer -->
+        <style>
+            @media (min-width: 600px) {
+                body{
+                    background-color: red;
+                }
+            }
+            /* The functionality we added is that :
+            if the width of the webpage > 600px : background-color = red
+            else blue */
+            @media (max-width: 599px) {
+                body {
+                    background-color: blue;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to my Web Page!</h1>
+    </body>
+</html>

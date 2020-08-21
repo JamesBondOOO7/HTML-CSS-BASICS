@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+        <!-- attribute selector : Suppose I wanna give a specific color to the facebook link, then this selector is used
+        We give the specific attribute in square brackets -->
+        <style>
+            a{
+                color:blue;
+            }
+            
+            /* styling for specific purpose */
+            a[href="https://facebook.com"] {
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="https://google.com">Google</a></li>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://amazon.com">Amazon</a></li>
+        </ul>  
+    </body>
+</html>

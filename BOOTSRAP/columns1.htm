@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--DOCTYPE Declaration : Tells the browser which version of html we are using-->
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style>
+            .row > div{
+                background-color: teal;
+                border: 2px solid black;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <!-- bootstrap divides the page into a grid with 12 columns/sections which can dynamically adjust ! 
+            If the screen is large, each div will take 3 units of space and when the screen is small, 
+            then it will take 6 units of space -->
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">This is some random 1 text</div>
+                <div class="col-lg-3 col-sm-6">This is some random 2 text</div>
+                <div class="col-lg-3 col-sm-6">This is some random 3 text</div>
+                <div class="col-lg-3 col-sm-6">This is some random 4 text</div>
+            </div>
+        </div>
+    </body>
+</html>

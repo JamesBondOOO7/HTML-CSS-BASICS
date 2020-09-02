@@ -1,0 +1,19 @@
+// It gives us the power to create variables
+$color:blue;
+
+ul {
+    font-size:14px;
+    color: $color;
+}
+
+ol {
+    font-size:18px;
+    color: $color;
+}
+
+// SASS --> CSS (in CMD)
+// sass file_name.css:file_name.css
+
+// But if we change the sass file, it doesn't automatically changes the css file
+// for that, we can use the command :
+// sass --watch file_name.scss:file_name.css

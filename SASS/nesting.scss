@@ -1,0 +1,14 @@
+// Nesting styles :: different tags under the div tag can be styled in a better way
+// as compared to CSS selectors
+
+div{
+    font-size: 18px;
+
+    p{
+        color:green;
+    }
+
+    ul{
+        color:blue;
+    }
+}
